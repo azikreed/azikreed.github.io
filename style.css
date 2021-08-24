@@ -1,0 +1,154 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    /* ========================================== HEADER START  */
+
+    ;
+    .nav__logo {
+        margin-top: 10px;
+    }
+
+    header {
+        background: url(./images/nike_bg_02.jpg);
+        padding-bottom: 149px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .nav__item {
+        font-size: 18px;
+        line-height: 45px;
+        color: #000000;
+        font-weight: bold;
+        font-family: "Arial";
+        text-align: center;
+        padding: 0 24px;
+        transition: .5s;
+    }
+
+    .nav__item:hover {
+        background: #c1bc45;
+    }
+
+    .nav__item:hover .nav__link {
+        color: #f0efdf !important;
+        transition: .5s;
+    }
+
+    .header__title {
+        font-size: 75px;
+        line-height: 55px;
+        color: #c1bc45;
+        font-weight: bold;
+        font-family: "Arial";
+        text-align: center;
+        margin-top: 132px;
+        margin-bottom: 16px;
+    }
+
+    .header__text {
+        font-size: 18px;
+        line-height: 15px;
+        color: #4d4d4d;
+        font-family: "Arial";
+    }
+
+    .header__text__span {
+        font-weight: 700;
+    }
+
+    /* ========================================== AFTERHEAD START */
+
+    .afterhead {
+        padding: 88px 0 134px;
+    }
+
+    .afterhead__left__img {
+        width: 100%;
+    }
+
+    .afterhead__left__title {
+        font-size: 20px;
+        line-height: 18px;
+        color: #000000;
+        font-weight: bold;
+        font-family: "Arial";
+        margin-top: 20px;
+        margin-bottom: 16px;
+    }
+
+    .afterhead__left__text {
+        font-size: 15px;
+        line-height: 25px;
+        color: #333333;
+        font-family: "Arial";
+        margin-bottom: 0;
+    }
+
+    .afterhead__right__box {
+        border: 4px solid #aeaeae;
+        padding-left: 23px;
+        padding-bottom: 14px;
+        padding-top: 13px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transition: .5s;
+    }
+
+    .afterhead__right__box:hover {
+        border: 4px solid #f0efb6;
+    }
+
+    .afterhead__right__title {
+        font-size: 20px;
+        line-height: 15px;
+        color: #000000;
+        font-weight: bold;
+        font-family: "Arial";
+    }
+
+    .afterhead__right__text {
+        font-size: 16px;
+        line-height: 24px;
+        color: #919191;
+        font-family: "Arial";
+        margin-bottom: 0;
+    }
+
+    /* ========================================== FOOTER START */
+
+    footer {
+        padding: 110px 0;
+        background: #eee9e9;
+    }
+
+    .footer__nav__item {
+        padding: 0 24px;
+        font-size: 18px;
+        line-height: 45px;
+        color: #bc3333;
+        font-weight: bold;
+        font-family: "Arial";
+        text-align: center;
+    }
+
+    .footer__nav__item::after{
+        content: "";
+        margin-top: 0;
+        display: none;
+        background: #bc3333;
+        height: 4px;
+        transition: .5s;
+    }
+
+    .footer__nav__item:hover::after{
+        display: block;
+        
+    }
+
+    .footer__nav__item:hover .footer__nav__link{
+        color: #bc3333 !important;
+    }
