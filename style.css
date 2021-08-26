@@ -18,7 +18,7 @@
     }
 
     .navbar__nav{
-        display: flex;
+        padding-left: 0;
     }
 
     .nav__item {
@@ -41,6 +41,10 @@
         font-size: 18px;
         font-weight: bold;
         
+    }
+
+    .navbar__toggler{
+        padding-left: 0;
     }
 
     .nav__item:hover {
@@ -296,6 +300,10 @@
 
         .header__title{
             text-align: center;
+        }
+
+        .nav__log__img{
+            width: 80px;
         }
 
         .afterhead__right__box{
